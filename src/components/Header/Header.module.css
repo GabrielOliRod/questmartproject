@@ -1,0 +1,214 @@
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  
+  .headerLogo a, .headerSection a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .headerLogo img {
+    width: 130px;
+    height: 80px;
+  }
+  
+  .headerLogo h1 {
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+  }
+  
+  .headerSearchBar {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    min-width: 250px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    margin: 10px 0;
+  }
+  
+  .headerSearchBar input {
+    border: none;
+    margin-left: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    font-size: 13.5px;
+  }
+  
+  .headerSearchBar svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+  }
+  
+  .headerSearchBarSvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    background-color: lightgray;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .headerSection h1 {
+    font-size: 1.6vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    transition: transform 0.5s ease;
+    display: inline-block;
+  }
+  
+  .headerSection h1:hover {
+    transform: scale(1.25);
+  }
+  
+  .headerSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .headerButtons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .headerButtons button {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+  }
+  
+  .headerButtonSignUp button {
+    background-color: black;
+    color: white;
+  }
+  
+  .headerButtonSignUp button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .headerButtonLogin button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1200px) {
+    .headerContainer {
+      padding: 0 50px;
+      gap: 30px;
+    }
+  
+    .headerLogo h1 {
+      font-size: 30px;
+    }
+  
+    .headerSection h1 {
+      font-size: 20px;
+    }
+  
+    .headerSearchBar {
+      width: 300px;
+    }
+  
+    .headerButtons button {
+      width: 90px;
+      height: 30px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .headerContainer {
+      padding: 0 20px;
+    }
+  
+    .headerSearchBar {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .headerSection {
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .headerButtons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .headerLogo h1 {
+      font-size: 24px;
+    }
+  
+    .headerSection h1 {
+      font-size: 18px;
+    }
+  
+    .headerSearchBar {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .headerButtons button {
+      width: 80px;
+      height: 28px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .headerContainer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .headerLogo, .headerSearchBar, .headerSection, .headerButtons {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .headerSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
