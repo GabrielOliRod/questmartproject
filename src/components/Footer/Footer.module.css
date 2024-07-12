@@ -10,3 +10,29 @@
     font-size: 15px;
     margin-top: 1.2vw;
 }
+
+@media (max-width: 576px) {
+    .containerFooter{
+        font-family: "Poppins", sans-serif;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        border-top: 0.7px solid black;
+        margin-top: 7vw;
+    }
+
+    .containerFooter p{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+      
+}

@@ -5,17 +5,17 @@ function Three() {
     <div className={styles.containerLeft}>
         <div className={styles.containerLeftImg}>
       <img
-        src="https://i.pinimg.com/736x/ed/0b/71/ed0b713a634ff692134bf17577693315.jpg"
+        src="https://img.ltwebstatic.com/images3_spmp/2023/11/09/12/16994837217039e3c4315b6e1d31252a9466831a30.png"
         alt="a"
       />
       </div>
       <div className={styles.containerRight}>
       <img
-        src="https://img.freepik.com/fotos-gratis/loja-de-roupas-loja-de-roupas-em-cabide-na-boutique-loja-moderna_1150-8886.jpg"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTehozUgnki_3lcNHyKwHOV5U8BLnjjtETyn-Ypmp_tvVQPJxGbeyDVtjU6emZdb2aa7TvqJSxp330mzTn_deRlf3LmDQNYYa_fUkHYgpsqRmGTHTeL4cd96rjPz8ZFghNE-g9TIkz2V4/s1280/MOCKUP+CANECA+ANIME+022+-ESTAMPA+PARA+CANECA+-+CLUBE+DAS+ESTAMPAS.jpg"
         alt="a"
       />
       <img
-        src="https://blog.bling.com.br/wp-content/uploads/2023/09/como-abrir-loja-de-roupas-masculinas-1024x576.png?x99143"
+        src="https://img.elo7.com.br/product/zoom/2268C62/kit-3-quadros-anime-kids-luffy-goku-naruto-moldura-e-vidro-hall.jpg"
         alt="a"
       />
     </div>
