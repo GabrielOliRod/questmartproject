@@ -17,6 +17,7 @@
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    overflow: hidden;
 }
 .slider {
     margin-left: 4vw;

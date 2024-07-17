@@ -129,86 +129,161 @@
     cursor: pointer;
   }
   
-  @media (max-width: 1200px) {
-    .headerContainer {
-      padding: 0 50px;
-      gap: 30px;
-    }
-  
-    .headerLogo h1 {
-      font-size: 30px;
-    }
-  
-    .headerSection h1 {
-      font-size: 20px;
-    }
-  
+  @media (max-width: 1200px) and (min-width:1021px) {
     .headerSearchBar {
-      width: 300px;
-    }
-  
-    .headerButtons button {
-      width: 90px;
-      height: 30px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .headerContainer {
-      padding: 0 20px;
-    }
-  
-    .headerSearchBar {
-      width: 100%;
-      margin-top: 10px;
-    }
-  
-    .headerSection {
-      justify-content: center;
-      gap: 10px;
-    }
-  
-    .headerButtons {
-      justify-content: center;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .headerLogo h1 {
-      font-size: 24px;
-    }
-  
-    .headerSection h1 {
-      font-size: 18px;
-    }
-  
-    .headerSearchBar {
-      width: 100%;
-      margin-top: 10px;
-    }
-  
-    .headerButtons button {
-      width: 80px;
-      height: 28px;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .headerContainer {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 10px;
-    }
-  
-    .headerLogo, .headerSearchBar, .headerSection, .headerButtons {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
-  
-    .headerSection {
-      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 20px;
+      background-color: white;
+      max-width: 150px;
+      height: 35px;
+      display: flex;
       align-items: center;
+      overflow: hidden;
+      flex-grow: 1;
+      margin: 10px 0;
+    }
+    .headerButtons button {
+      width: 75px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      position: relative;
+      z-index: 1;
+      border: 1px solid black;
+      font-size: 14.5px;
     }
   }
+
+@media (max-width: 1021px) and (min-width:726px){
+  .headerContainer{
+    height: 60px;
+  }
+
+  .headerSearchBar {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    margin: 10px 0;
+  }
+
+  .headerSearchBar svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+  }
+
+  .headerSection{
+    display: none;
+}
+.headerLogo h1 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+
+.headerSearchBar{
+  max-width: 50%;
+}
+}
+
+@media (max-width: 725px) and (min-width:670px){
+  .headerContainer{
+    height: 60px;
+  }
   
+  .headerSearchBar {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    margin: 10px 0;
+  }
+
+  .headerSearchBar svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+  }
+  .headerSearchBar input{
+    font-size: 10px;
+  }
+  .headerSection{
+    display: none;
+}
+.headerLogo h1 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+
+.headerButtons button {
+  width: 65px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  border: 1px solid black;
+  font-size: 12.5px;
+}
+}
+
+@media (max-width: 669px) {
+  .headerContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .headerLogo {
+    order: -2;
+  }
+
+  .headerButtons {
+    order: -1;
+    margin-right: 0px;
+
+  }
+
+  .headerSearchBar {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .headerLogo h1 {
+    font-size: 40px;
+  }
+
+  .headerButtons button {
+    width: 65px;
+    height: 28px;
+    font-size: 12.5px;
+  }
+
+  .headerSection{
+    display: none;
+  }
+
+}

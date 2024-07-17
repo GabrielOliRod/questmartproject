@@ -5,7 +5,7 @@ import photoOne from "./photoone.PNG";
 function CarouselHome() {
   return (
     <div className={styles.carouselContainer}>
-      <Carousel style={{height:"80vh"}}>
+      <Carousel>
         <Carousel.Item interval={1000}>
           <img src={photoOne} alt="First Pic" text="First slide" />
           <Carousel.Caption></Carousel.Caption>
