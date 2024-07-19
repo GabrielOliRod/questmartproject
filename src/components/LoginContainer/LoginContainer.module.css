@@ -259,3 +259,68 @@ form button:hover {
 .ghost:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+@media (max-width: 700px){
+    .container p{
+        font-size: 10px;
+    }
+    
+    .container h1{
+        font-size: 18px;
+    }
+
+    .container a{
+        font-size: 10px;
+    }
+
+    .container button{
+        height: 30px;
+        font-size: 10px;
+        width: 100px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container span{
+        font-size: 10px;
+    }
+
+    .overlayContainer{
+        width:40%;
+        left: 60%;
+    }
+
+    .signIn{
+        width: 70%;
+        left: -5%;
+    }
+
+    .container.active .overlayContainer {
+        transform: translateX(-160%);
+        border-radius: 0 150px 100px 0;
+    }
+
+    .signUp{
+        left: -40%;
+        width: 72%;
+        opacity: 0;
+        z-index: 1;
+    }
+
+    .socialIcons {
+        margin: 20px 0;
+    }
+    
+    .socialIcons a {
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3px;
+        height: 35px;
+        width: 35px;
+    }
+}
