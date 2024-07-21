@@ -43,13 +43,13 @@
     
     .containerRight img{
         width: 100%;
-        height: 350px;
+        height: 100%;
         margin: 0px;
         padding-bottom: 20px;
     }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 900px) {
     
     .containerLeftImg img{
         width: 330px;
@@ -64,7 +64,7 @@
     }    
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 901px) and (max-width: 1024px) {
     .containerLeftImg img{
         width: 450px;
         height: 580px;
