@@ -14,7 +14,9 @@ function SectionsClotherHome() {
   return (
     <>
       <div className={styles.container} /* SHIRTS */>
+      <a href="/Camisetas">
         <h1>Camisetas</h1>
+      </a>
         <div className={styles.slider}>
           <Swiper
             slidesPerView={1}
@@ -45,7 +47,9 @@ function SectionsClotherHome() {
       </div>
 
       <div className={styles.container} /* SHORTS */>
+      <a href="/Shorts">
         <h1>Shorts</h1>
+      </a>
         <div className={styles.slider}>
           <Swiper
             slidesPerView={1}
@@ -78,7 +82,9 @@ function SectionsClotherHome() {
       <Three />
           
       <div className={styles.container} /* PANTS */>
+      <a href="/Calcas">
         <h1>Calças</h1>
+      </a>
         <div className={styles.slider}>
         <Swiper
             slidesPerView={1}
@@ -110,7 +116,9 @@ function SectionsClotherHome() {
 
 
       <div className={styles.container} /* SWEATSHIRT */>
+      <a href="/Moletons">
         <h1>Moletons</h1>
+      </a>
         <div className={styles.slider}>
         <Swiper
             slidesPerView={1}

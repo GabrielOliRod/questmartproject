@@ -9,6 +9,11 @@ function Header() {
   const navigateloginpage = () =>{
     navigate('/Login')
   }
+
+  const navigateshirtpage = () =>{
+    navigate('/Camisetas')
+  }
+
   return (
     <header>
       <div className={styles.headerContainer}>
@@ -27,16 +32,16 @@ function Header() {
         </div>
 
         <div className={styles.headerSection}>
-          <a href="/">
-            <h1>CAMISETAS</h1>
+          <a href="/Camisetas">
+            <h1 onClick={navigateshirtpage}>CAMISETAS</h1>
           </a>
-          <a href="/">
+          <a href="/Calcas">
             <h1>CALÇAS</h1>
           </a>
-          <a href="/">
+          <a href="/Shorts">
             <h1>SHORTS</h1>
           </a>
-          <a href="/">
+          <a href="/Moletons">
             <h1>MOLETONS</h1>
           </a>
         </div>
