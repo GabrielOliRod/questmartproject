@@ -1,121 +1,138 @@
 [
     {
         "id": 1,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lshczlta4chna7",
+        "name": "Camiseta Leve",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Leve", "preto"]
     },
     {
         "id": 2,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
-        "price": "R$ 100",  
-        "xp": 100
+        "photo": "https://cdn.dooca.store/292/products/egbuozmowjlfis0fwqwynenidvg7lqa6y8x9.jpg?v=1688995601",
+        "name": "Camiseta Frases",
+        "price": "R$ 80",
+        "xp": 80,
+        "meta": ["camiseta", "odeio camisetas com frase", "odeio camisetas com frase", "branco"]
     },
     {
         "id": 3,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://acdn.mitiendanube.com/stores/001/778/528/products/camiseta-preta-darkest-sport-davi-e-golias-caravaggio-40204500beb4c1ecef17260833311918-1024-1024.png",
+        "name": "Camiseta Darkest",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "darkest"]
     },
     {
         "id": 4,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
-        "price": "R$ 100",  
-        "xp": 100
+        "photo": "https://http2.mlstatic.com/D_Q_NP_987438-MLB80284107838_112024-AB.webp",
+        "name": "Camiseta Blessed",
+        "price": "R$ 90",  
+        "xp": 90,
+        "meta": ["camiseta", "blessed", "preto", "Camiseta Blessed"]
     },
     {
         "id": 5,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
-        "price": "R$ 100",  
-        "xp": 100
+        "photo": "https://http2.mlstatic.com/D_746829-MLB71028801739_082023-O.jpg",
+        "name": "Camiseta Deicide",
+        "price": "R$ 110",  
+        "xp": 110,
+        "meta": ["camiseta", "deicide", "Camiseta Deicide", "preto"]
     },
     {
         "id": 6,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 7,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 8,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 1,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 9,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 10,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 11,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 12,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 13,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 14,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 15,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     },
     {
         "id": 16,
         "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
         "name": "Camiseta Universe",
         "price": "R$ 100",  
-        "xp": 100
+        "xp": 100,
+        "meta": ["camiseta", "oversized", "Camiseta Universe"]
     }
 ]

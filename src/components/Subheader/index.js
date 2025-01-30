@@ -4,12 +4,12 @@ function SubHeader(){
     return(
         <div className={styles.containerSubHeader}>
             <div className={styles.left}>
-            <a href="/">Animes</a>
-            <a href="/">Jogos</a>
-            <a href="/">Estampas Personalizadas</a>
-            <a href="/">Itens Exclusivos</a>            
-            <a href="/">Canecas</a>
-            <a href="/">Bonecos</a>
+            <a href="ResultadoPesquisa?data=animes">Animes</a>
+            <a href="ResultadoPesquisa?data=jogos">Jogos</a>
+            <a href="ResultadoPesquisa?data=estampas personalizadas">Estampas Personalizadas</a>
+            <a href="ResultadoPesquisa?data=itens exclusivos">Itens Exclusivos</a>            
+            <a href="ResultadoPesquisa?data=canecas">Canecas</a>
+            <a href="ResultadoPesquisa?data=bonecos">Bonecos</a>
             </div>
             <div className={styles.right}>
             <a href="/">Atendimento</a>

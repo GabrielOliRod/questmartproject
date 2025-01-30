@@ -117,7 +117,7 @@ function SectionsClotherHome() {
 
       <div className={styles.container} /* SWEATSHIRT */>
       <a href="/Moletons">
-        <h1>Moletons</h1>
+        <h1 onClick={() => window.location.href = "/Moletons"}>Moletons</h1>
       </a>
         <div className={styles.slider}>
         <Swiper

@@ -6,6 +6,7 @@ import ShirtPage from "./pages/ProductPage/ShirtPage";
 import PantsPage from "./pages/ProductPage/PantsPage";
 import ShortsPage from "./pages/ProductPage/ShortsPage";
 import SweatshirtPgBody from "./components/SwaetshirtPgBody";
+import SearchPage from "./pages/ProductPage/SearchPage";
 
 function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ function AppRoutes() {
           <Route path="/Calcas" element={<PantsPage />} />
           <Route path="/Shorts" element={<ShortsPage />} />
           <Route path="/Moletons" element={<SweatshirtPgBody />} />
+          <Route path="/ResultadoPesquisa" element={<SearchPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

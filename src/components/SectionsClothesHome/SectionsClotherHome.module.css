@@ -19,6 +19,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 .slider {
     margin-left: 4vw;
     margin-top: 4vh;
@@ -41,6 +42,9 @@
 a {
     color: inherit;
     text-decoration: none;
+}
+h1{
+    display: inline;
 }
 
 

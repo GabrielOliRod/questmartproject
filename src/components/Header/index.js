@@ -2,17 +2,27 @@ import styles from "./Header.module.css";
 import { CiSearch } from "react-icons/ci";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
-  const navigate = useNavigate()
+  const [inputValue, setInputValue] = useState("");
 
-  const navigateloginpage = () =>{
-    navigate('/Login')
-  }
+  const navigate = useNavigate();
 
-  const navigateshirtpage = () =>{
-    navigate('/Camisetas')
-  }
+  const navigateloginpage = () => {
+    navigate("/Login");
+  };
+
+  const navigateshirtpage = () => {
+    navigate("/Camisetas");
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      navigate(`/ResultadoPesquisa?data=${encodeURIComponent(inputValue)}`);
+    }
+  };
+
 
   return (
     <header>
@@ -28,7 +38,13 @@ function Header() {
           <div className={styles.headerSearchBarSvg}>
             <CiSearch />
           </div>
-          <input placeholder="Busque por produtos aqui..."></input>
+          <input
+            type="text"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder="Busque por produtos aqui..."
+          ></input>
         </div>
 
         <div className={styles.headerSection}>
@@ -48,7 +64,9 @@ function Header() {
 
         <div className={styles.headerButtons}>
           <div className={styles.headerButtonLogin}>
-            <Button onClick={navigateloginpage} variant="outline-dark">Login</Button>
+            <Button onClick={navigateloginpage} variant="outline-dark">
+              Login
+            </Button>
           </div>
           <div className={styles.headerButtonSignUp}>
             <Button variant="outline-dark">Cadastro</Button>
