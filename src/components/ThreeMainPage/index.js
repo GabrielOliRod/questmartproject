@@ -4,7 +4,7 @@ function Three() {
   return (
     <div className={styles.containerLeft}>
         <div className={styles.containerLeftImg}>
-      <a href="">
+      <a href="ResultadoPesquisa?data=oversized">
       <img
         src="https://i.ibb.co/mbk9hjK/oversizedphoto.png"
         alt="Oversized"
