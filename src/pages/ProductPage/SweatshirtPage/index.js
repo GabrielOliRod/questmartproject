@@ -1,12 +1,13 @@
-import SweatshirtPgBody from "../../../components/SwaetshirtPgBody"
-import styles from "./SweatshirtPage.module.css"
+import ProductCard from "../../../components/ProductCard";
+import sweatshirts from "../../../database/sweatshirtdb.json";
+import styles from "./Sweatshirt.module.css";
 
-function ShortsPage(){
-    return(
-        <div className={styles.body}>
-            <SweatshirtPgBody />
-        </div>
-    )
-}    
+function SweatshirtPage() {
+  return (
+    <div className={styles.container}>
+      <ProductCard products={sweatshirts} />
+    </div>
+  );
+}
 
-export default ShortsPage
+export default SweatshirtPage;

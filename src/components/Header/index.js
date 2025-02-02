@@ -23,7 +23,6 @@ function Header() {
     }
   };
 
-
   return (
     <header>
       <div className={styles.headerContainer}>
