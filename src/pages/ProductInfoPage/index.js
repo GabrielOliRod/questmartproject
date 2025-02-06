@@ -2,11 +2,10 @@ import BodyInfoProduct from "../../components/BodyInfoProduct";
 import styles from "./ProductInfoPage.module.css";
 
 function ProductInfoPage() {
+
   return (
-    <>
-      <BodyInfoProduct />
-    </>
+    <BodyInfoProduct />
   );
 }
 
-export default ProductInfoPage();
+export default ProductInfoPage;

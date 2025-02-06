@@ -9,19 +9,18 @@ import ProductCard from "../../../components/ProductCard";
 function SearchPage() {
   const products = [...shirts, ...shorts, ...sweatshirts, ...pants];
   const [searchParams] = useSearchParams();
-  const data = searchParams.get("data") || ""; // Evitando algum erro, caso não tenha nada no "data"
+  const data = searchParams.get("data") || "";
 
   const filteredProducts = products.filter((product) => {
-    const metaMatches =
-      Array.isArray(product.meta)
-        ? product.meta.some((tag) =>
-            tag.toLowerCase().includes(data.toLowerCase())
-          )
-        : product.meta?.toLowerCase().includes(data.toLowerCase());
+    const metaMatches = Array.isArray(product.meta)
+      ? product.meta.some((tag) =>
+          tag.toLowerCase().includes(data.toLowerCase())
+        )
+      : product.meta?.toLowerCase().includes(data.toLowerCase());
 
     const nameMatches = product.name.toLowerCase().includes(data.toLowerCase());
 
-    return metaMatches || nameMatches; // Retorno se qualquer critério for verdadeiro
+    return metaMatches || nameMatches;
   });
 
   return (

@@ -3,34 +3,32 @@ import shirts from "../../database/shirtsdb.json";
 import pants from "../../database/pantsdb.json";
 import shorts from "../../database/shortsdb.json";
 import sweatshirts from "../../database/sweatshirtdb.json";
-import styles from "./BodyInfoProduct.module.css";
+import styles from "./BodyInfoProduct.module.css"
 
 function BodyInfoProduct() {
-  // Juntando todos os produtos
+  const [searchParams] = useSearchParams();
+  const name = searchParams.get("name") || "";
+
+  // Junta todos os produtos em um array
   const products = [...shirts, ...shorts, ...sweatshirts, ...pants];
 
-  // Pegando parâmetros da URL corretamente
-  const [searchParams] = useSearchParams();
-  const productName = searchParams.get("name"); // Pegando o nome do produto
+  // Busca o produto pelo nome
+  const foundProduct = products.find((item) => item.name === name);
 
-  // Encontrar o produto pelo nome
-  const product = products.find((product) => product.name === productName);
-
-  // Logs para depuração
-  console.log("Produtos carregados:", products);
-  console.log("Nome buscado:", productName);
-  console.log("Produto encontrado:", product);
-
-  // Se o produto não for encontrado, exibe mensagem de erro
-  if (!product) {
-    return <p>Produto não encontrado!</p>;
+  if (!foundProduct) {
+    return <p>Produto não encontrado</p>;
   }
 
   return (
     <div className={styles.container}>
-      <h1>{product.name}</h1>
-      <img src={product.photo} alt={product.name} />
-      <p>Preço: {product.price}</p>
+        <div className={styles.containerInfos}>
+      <h1>{foundProduct.name}</h1>
+      <p>Preço: {foundProduct.price}</p>
+      <button type="button" className="btn btn-dark">Adicionar ao Carrinho</button>
+      </div>
+      <div className={styles.containerImg}>
+      <img src={foundProduct.photo} alt={foundProduct.name} />
+      </div>
     </div>
   );
 }

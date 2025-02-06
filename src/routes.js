@@ -15,13 +15,13 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<BasePage />}>
           <Route index element={<HomePage />} />
-          <Route path="/Login" element={<LoginPage />} />
-          <Route path="/Camisetas" element={<ShirtPage />} />
-          <Route path="/Calcas" element={<PantsPage />} />
-          <Route path="/Shorts" element={<ShortsPage />} />
-          <Route path="/Moletons" element={<SweatshirtPage />} />
-          <Route path="/ResultadoPesquisa" element={<SearchPage />} />
-          <Route path="/InfoProduto" element={<ProductInfoPage />} />
+          <Route path="Login" element={<LoginPage />} />
+          <Route path="Camisetas" element={<ShirtPage />} />
+          <Route path="Calcas" element={<PantsPage />} />
+          <Route path="Shorts" element={<ShortsPage />} />
+          <Route path="Moletons" element={<SweatshirtPage />} />
+          <Route path="ResultadoPesquisa" element={<SearchPage />} />
+          <Route path="InfoProduto" element={<ProductInfoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
