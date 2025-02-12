@@ -11,19 +11,6 @@
     margin-bottom: 2vw;
 }
 
-.productCard button {
-    border-radius: 10px;
-    width: 100px;
-    font-size: 14px;
-    padding: 0;
-    margin-bottom: 2vh;
-    border: 1px solid black;
-}
-
-.productCard button:hover {
-    color: black;
-    background-color: white;
-}
 
 @media (max-width: 599px) {
     .productCard {

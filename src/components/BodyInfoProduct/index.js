@@ -23,7 +23,16 @@ function BodyInfoProduct() {
     return <p>Produto não encontrado</p>;
   }
 
-  const availableSizes = ["PP", "P", "M", "G", "GG", "GGG (XP)", "GGG (XM)", "GGG (XG)"];
+  const availableSizes = [
+    "PP",
+    "P",
+    "M",
+    "G",
+    "GG",
+    "GGG (XP)",
+    "GGG (XM)",
+    "GGG (XG)",
+  ];
 
   return (
     <div className={styles.container}>
@@ -35,7 +44,9 @@ function BodyInfoProduct() {
         <div className={styles.containerInfos}>
           <h1>{foundProduct.name}</h1>
           <p className={styles.price}>R$ {foundProduct.price}</p>
-          <p className={styles.payment}>10x de R$ {(foundProduct.price / 10).toFixed(2)}</p>
+          <p className={styles.payment}>
+            10x de R$ {(foundProduct.price / 10).toFixed(2)}
+          </p>
 
           <div className={styles.sizeSelector}>
             <p>TAMANHO: {selectedSize || "Selecione"}</p>
@@ -43,7 +54,9 @@ function BodyInfoProduct() {
               {availableSizes.map((size) => (
                 <button
                   key={size}
-                  className={`${styles.sizeButton} ${selectedSize === size ? styles.selectedSize : ""}`}
+                  className={`${styles.sizeButton} ${
+                    selectedSize === size ? styles.selectedSize : ""
+                  }`}
                   onClick={() => setSelectedSize(size)}
                   disabled={size.includes("GGG")}
                 >
@@ -55,7 +68,11 @@ function BodyInfoProduct() {
 
           <div className={styles.quantitySelector}>
             <p>QUANTIDADE</p>
-            <select value={quantity} onChange={(e) => setQuantity(e.target.value)} className={styles.quantityDropdown}>
+            <select
+              value={quantity}
+              onChange={(e) => setQuantity(e.target.value)}
+              className={styles.quantityDropdown}
+            >
               {[...Array(10).keys()].map((num) => (
                 <option key={num + 1} value={num + 1}>
                   {num + 1}

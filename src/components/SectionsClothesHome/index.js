@@ -9,6 +9,7 @@ import shirts from "../../database/shirtsdb.json"
 import shorts from "../../database/shortsdb.json"
 import pants from "../../database/pantsdb.json"
 import sweatshirts from "../../database/sweatshirtdb.json"
+import ButtonProduct from "../ButtonProduct";
 
 function SectionsClotherHome() {
   return (
@@ -35,10 +36,8 @@ function SectionsClotherHome() {
                 <div className={styles.productCard}>
                   <img src={shirt.photo} alt={shirt.name} />
                   <h5 style={{ marginTop: "2vh" }}>{shirt.name}</h5>
-                  <p>{shirt.price}</p>
-                  <a href="/">
-                    <button type="button" className="btn btn-dark">Ver Produto</button>
-                  </a>
+                  <p>R$ {shirt.price}</p>
+                  <ButtonProduct product={shirt} />
                 </div>
               </SwiperSlide>
             ))}
@@ -68,10 +67,8 @@ function SectionsClotherHome() {
                 <div className={styles.productCard}>
                   <img src={short.photo} alt={short.name} />
                   <h5 style={{ marginTop: "2vh" }}>{short.name}</h5>
-                  <p>{short.price}</p>
-                  <a href="/">
-                    <button type="button" className="btn btn-dark">Ver Produto</button>
-                  </a>
+                  <p>R$ {short.price}</p>
+                  <ButtonProduct product={short} />
                 </div>
               </SwiperSlide>
             ))}
@@ -103,10 +100,8 @@ function SectionsClotherHome() {
                 <div className={styles.productCard}>
                   <img src={pant.photo} alt={pant.name} />
                   <h5 style={{ marginTop: "2vh" }}>{pant.name}</h5>
-                  <p>{pant.price}</p>
-                  <a href="/">
-                    <button type="button" className="btn btn-dark">Ver Produto</button>
-                  </a>
+                  <p>R$ {pant.price}</p>
+                  <ButtonProduct product={pant} />
                 </div>
               </SwiperSlide>
             ))}
@@ -137,10 +132,8 @@ function SectionsClotherHome() {
                 <div className={styles.productCard}>
                   <img src={sweatshirt.photo} alt={sweatshirt.name} />
                   <h5 style={{ marginTop: "2vh" }}>{sweatshirt.name}</h5>
-                  <p>{sweatshirt.price}</p>
-                  <a href="/">
-                    <button type="button" className="btn btn-dark">Ver Produto</button>
-                  </a>
+                  <p>R$ {sweatshirt.price}</p>
+                  <ButtonProduct product={sweatshirt} />
                 </div>
               </SwiperSlide>
             ))}
