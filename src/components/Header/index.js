@@ -9,8 +9,8 @@ function Header() {
 
   const navigate = useNavigate();
 
-  const navigateloginpage = () => {
-    navigate("/Login");
+  const navigateloginpage = (isActive) => {
+     navigate("/Login&Cadastro");
   };
 
   const navigateshirtpage = () => {
@@ -68,7 +68,7 @@ function Header() {
             </Button>
           </div>
           <div className={styles.headerButtonSignUp}>
-            <Button variant="outline-dark">Cadastro</Button>
+            <Button onClick={navigateloginpage} variant="outline-dark">Cadastro</Button>
           </div>
         </div>
       </div>

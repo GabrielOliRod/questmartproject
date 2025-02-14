@@ -12,8 +12,8 @@ function SubHeader(){
             <a href="ResultadoPesquisa?data=bonecos">Bonecos</a>
             </div>
             <div className={styles.right}>
-            <a href="/">Atendimento</a>
-            <a href="/">Sobre Nós</a>
+            <a href="/Atendimento">Atendimento</a>
+            <a href="/SobreNos">Sobre Nós</a>
             </div>
         </div>
     )
