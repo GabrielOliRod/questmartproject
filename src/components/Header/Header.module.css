@@ -251,7 +251,7 @@
 
 @media (max-width: 669px) {
   .headerContainer {
-    flex-direction: column;
+    flex-direction:row;
     height: auto;
     padding: 10px 20px;
   }
@@ -261,9 +261,8 @@
   }
 
   .headerButtons {
-    order: -1;
+    order: -2;
     margin-right: 0px;
-
   }
 
   .headerSearchBar {
@@ -273,7 +272,7 @@
   }
 
   .headerLogo h1 {
-    font-size: 40px;
+    font-size: 27px;
   }
 
   .headerButtons button {
