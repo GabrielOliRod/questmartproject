@@ -268,7 +268,8 @@
   .headerSearchBar {
     width: 100%;
     max-width: 100%;
-    margin: 10px 0;
+    margin: 0px 0;
+    margin-bottom: 10px;
   }
 
   .headerLogo h1 {
@@ -284,5 +285,7 @@
   .headerSection{
     display: none;
   }
+
+
 
 }
