@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import shirts from "../../database/shirtsdb.json";
 import pants from "../../database/pantsdb.json";
 import shorts from "../../database/shortsdb.json";
@@ -9,6 +9,12 @@ import styles from "./BodyInfoProduct.module.css";
 function BodyInfoProduct() {
   const [searchParams] = useSearchParams();
   const name = searchParams.get("name") || "";
+
+  const navigate = useNavigate();
+
+  const handleLoginPage = () => {
+    navigate("/Login&Cadastro")
+  }
 
   // Junta todos os produtos em um array
   const products = [...shirts, ...shorts, ...sweatshirts, ...pants];
@@ -81,7 +87,7 @@ function BodyInfoProduct() {
             </select>
           </div>
 
-          <button type="button" className={styles.addToCart}>
+          <button type="button" className={styles.addToCart} onClick={handleLoginPage}>
             INCLUIR NO CARRINHO
           </button>
         </div>
