@@ -5,7 +5,7 @@
         "name": "Camiseta Leve",
         "price": 100,
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Leve", "preto"]
+        "meta": ["camiseta", "oversized", "preto"]
     },
     {
         "id": 18,
@@ -21,15 +21,15 @@
         "name": "Camiseta Darkest",
         "price": 100, 
         "xp": 100,
-        "meta": ["camiseta", "darkest"]
+        "meta": ["camiseta", "darkest", "preto"]
     },
     {
         "id": 20,
-        "photo": "https://http2.mlstatic.com/D_Q_NP_987438-MLB80284107838_112024-AB.webp",
-        "name": "Camiseta Blessed",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_678780-MLB78521169100_082024-O.webp",
+        "name": "Camiseta Metallica",
         "price": 100,  
         "xp": 90,
-        "meta": ["camiseta", "blessed", "preto", "Camiseta Blessed"]
+        "meta": ["camiseta", "blessed", "preto", "Camiseta Blessed", "rock"]
     },
     {
         "id": 21,
@@ -37,95 +37,95 @@
         "name": "Camiseta Deicide",
         "price": 100,  
         "xp": 110,
-        "meta": ["camiseta", "deicide", "Camiseta Deicide", "preto"]
+        "meta": ["camiseta", "deicide", "Camiseta Deicide", "preto", "rock"]
     },
     {
         "id": 22,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_869081-MLB54612020807_032023-O.webp",
+        "name": "Camiseta Behemoth",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "rock", "preto"]
     },
     {
         "id": 23,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_953098-MLB79075463610_092024-O.webp",
+        "name": "Camiseta Rick e Morty",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "desenhos", "preto"]
     },
     {
         "id": 24,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_799068-MLB74911790887_032024-O.webp",
+        "name": "Camiseta Blink-182",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "rock", "preto"]
     },
     {
         "id": 25,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_982963-MLB81223231662_122024-O.webp",
+        "name": "Camiseta Roblox",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "jogos", "preto"]
     },
     {
         "id": 26,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_971517-MLB80788835492_112024-O.webp",
+        "name": "Camiseta Stumble Guys",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "jogos", "preto"]
     },
     {
         "id": 27,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_624145-MLB71947096880_092023-O.webp",
+        "name": "Camiseta Sonic",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "jogos", "vermelho"]
     },
     {
         "id": 28,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_904701-MLB78024428668_082024-O.webp",
+        "name": "Camiseta Malenia",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "jogos", "preto"]
     },
     {
         "id": 29,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_883095-MLB72768370551_112023-O.webp",
+        "name": "Camiseta Garfield",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "desenhos", "preto"]
     },
     {
         "id": 30,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_891079-MLB82068879326_022025-O.webp",
+        "name": "Camiseta Bob Esponja",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "desenhos", "amarelo"]
     },
     {
         "id": 31,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_837784-MLB78438607265_082024-O.webp",
+        "name": "Camiseta Divertidamente",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "desenhos", "preto"]
     },
     {
         "id": 32,
-        "photo": "https://i.ibb.co/Jr2PbmX/Camiseta-Universe.jpg",
-        "name": "Camiseta Universe",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_641569-MLB71877427084_092023-O.webp",
+        "name": "Camiseta Naruto",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "animes", "preto"]
     },
     {
         "id": 33,

@@ -6,10 +6,10 @@ function SubHeader(){
             <div className={styles.left}>
                 <a href="ResultadoPesquisa?data=animes">Animes</a>
                 <a href="ResultadoPesquisa?data=jogos">Jogos</a>
-                <a href="ResultadoPesquisa?data=estampas personalizadas">Estampas Personalizadas</a>
-                <a href="ResultadoPesquisa?data=itens exclusivos" className={styles.hideOnLarge}>Itens Exclusivos</a>            
-                <a href="ResultadoPesquisa?data=canecas" className={styles.hideOnLarge}>Canecas</a>
+                <a href="ResultadoPesquisa?data=rock">Rock</a>          
+                <a href="ResultadoPesquisa?data=desenhos" className={styles.hideOnLarge}>Desenhos</a>
                 <a href="ResultadoPesquisa?data=bonecos" className={styles.hideOnLarge}>Bonecos</a>
+                <a href="ResultadoPesquisa?data=itens exclusivos" className={styles.hideOnLarge}>Itens Exclusivos</a>  
             </div>
             <div className={styles.right}>
                 <a href="/Atendimento">Atendimento</a>
