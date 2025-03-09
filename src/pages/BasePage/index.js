@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 
 function BasePage() {
   return (
+    //Página "Base" que garante que o Header e o Footer
+    //Sempre estejam presentes em todas as páginas
     <main>
       <Header />
       <SubHeader />

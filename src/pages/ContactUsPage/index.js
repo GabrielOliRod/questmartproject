@@ -1,10 +1,10 @@
-import ContactUsBody from "../../components/ContactUsBody"
-import styles from "./ContactUsPage.module.css"
+import ContactUsBody from "../../components/ContactUsBody";
 
-function ContactUsPage(){
-    return(
-        <ContactUsBody />
-    )
+function ContactUsPage() {
+  return (
+    //Página de "Atendimento"
+    <ContactUsBody />
+  );
 }
 
-export default ContactUsPage
+export default ContactUsPage;

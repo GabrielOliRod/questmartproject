@@ -1,13 +1,13 @@
-import AboutUsBody from "../../components/AboutUsBody"
-import styles from "./AboutUs.module.css"
+import AboutUsBody from "../../components/AboutUsBody";
+import styles from "./AboutUs.module.css";
 
-function AboutUs(){
-    return(
-
-        <div className={styles.container}>
-        <AboutUsBody />
-        </div>
-    )
+function AboutUs() {
+  return (
+    //Página "Sobre Nós"
+    <div className={styles.container} /*Container Principal*/>
+      <AboutUsBody />
+    </div>
+  );
 }
 
-export default AboutUs
+export default AboutUs;

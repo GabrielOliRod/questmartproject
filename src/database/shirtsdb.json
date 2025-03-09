@@ -5,7 +5,7 @@
         "name": "Camiseta Leve",
         "price": 100,
         "xp": 100,
-        "meta": ["camiseta", "oversized", "preto"]
+        "meta": ["camiseta", "oversized", "preto", "itens exclusivos"]
     },
     {
         "id": 18,
@@ -13,7 +13,7 @@
         "name": "Camiseta Frases",
         "price": 100,
         "xp": 80,
-        "meta": ["camiseta", "odeio camisetas com frase", "odeio camisetas com frase", "branco"]
+        "meta": ["camiseta", "branco", "oversized"]
     },
     {
         "id": 19,
@@ -21,7 +21,7 @@
         "name": "Camiseta Darkest",
         "price": 100, 
         "xp": 100,
-        "meta": ["camiseta", "darkest", "preto"]
+        "meta": ["camiseta", "darkest", "preto", "gym", "oversized"]
     },
     {
         "id": 20,
@@ -37,7 +37,7 @@
         "name": "Camiseta Deicide",
         "price": 100,  
         "xp": 110,
-        "meta": ["camiseta", "deicide", "Camiseta Deicide", "preto", "rock"]
+        "meta": ["camiseta", "deicide", "Camiseta Deicide", "preto", "rock", "itens exclusivos"]
     },
     {
         "id": 22,
@@ -53,7 +53,7 @@
         "name": "Camiseta Rick e Morty",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "desenhos", "preto"]
+        "meta": ["camiseta", "desenhos", "preto", "itens exclusivos"]
     },
     {
         "id": 24,
@@ -133,6 +133,6 @@
         "name": "Camiseta Universe",
         "price": 100,  
         "xp": 100,
-        "meta": ["camiseta", "oversized", "Camiseta Universe"]
+        "meta": ["camiseta", "oversized", "Camiseta Universe", "itens exclusivos"]
     }
 ]

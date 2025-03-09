@@ -1,9 +1,10 @@
 import BodyInfoProduct from "../../components/BodyInfoProduct";
-import styles from "./ProductInfoPage.module.css";
 
 function ProductInfoPage() {
 
   return (
+    //Página de Informações do produto
+    //Quando clica em "Ver Produto"
     <BodyInfoProduct />
   );
 }

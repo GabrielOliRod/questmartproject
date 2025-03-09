@@ -5,134 +5,102 @@
         "name": "Shorts Rostos",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "itens exclusivos"]
     },
     {
         "id": 35,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_947732-MLB79193793286_092024-E.webp",
+        "name": "Short De Compressão Homem Aranha",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "desenhos", "gym", "itens exclusivos"]
     },
     {
         "id": 36,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_759031-MLB78891335546_092024-E.webp",
+        "name": "Shorts De Compressão Luffy",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "animes", "gym", "itens exclusivos"]
     },
     {
         "id": 37,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_943619-MLB50595321367_072022-E.webp",
+        "name": "Shorts Praia Akatsuki",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "animes"]
     },
     {
         "id": 38,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_821898-MLB81960405867_012025-E.webp",
+        "name": "Shorts De Compressão Gojo",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "animes", "gym", "itens exclusivos"]
     },
     {
         "id": 39,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_683721-MLB78583958049_082024-E.webp",
+        "name": "Shorts De Compressão Sukuna",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "animes", "gym"]
     },
     {
         "id": 40,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_879080-MLB79200353499_092024-E.webp",
+        "name": "Shorts Colorido Animais",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto"]
     },
     {
         "id": 41,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_771409-MLB52332889803_112022-E.webp",
+        "name": "Shorts Praia Verão",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto"]
     },
     {
         "id": 42,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_682066-MLB79953505312_102024-E.webp",
+        "name": "Shorts Secagem Rápida",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "gym"]
     },
     {
         "id": 43,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_907575-MLB78233866344_082024-E.webp",
+        "name": "Shorts Praia Preto",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "gym", "itens exclusivos"]
     },
     {
         "id": 44,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_935606-MLB73094420838_112023-E.webp",
+        "name": "Shorts Dry Fit Preta",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "gym"]
     },
     {
         "id": 45,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_Q_NP_2X_628394-MLB82581851642_032025-E.webp",
+        "name": "Shorts UFC",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "branco", "gym"]
     },
     {
         "id": 46,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_668938-MLB82915952763_032025-O.webp",
+        "name": "Shorts Tribal Hellstar ",
         "price": 50,  
         "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
-    },
-    {
-        "id": 47,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
-        "price": 50,  
-        "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
-    },
-    {
-        "id": 48,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
-        "price": 50,  
-        "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
-    },
-    {
-        "id": 49,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
-        "price": 50,  
-        "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
-    },
-    {
-        "id": 50,
-        "photo": "https://i.ibb.co/b2R69FD/shorts-Rostos.jpg",
-        "name": "Shorts Rostos",
-        "price": 50,  
-        "xp": 50,
-        "meta": ["shorts", "rostos", "preto", "Shorts Rostos"]
+        "meta": ["shorts", "preto", "rock", "itens exclusivos"]
     }
 ]

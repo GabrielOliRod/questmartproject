@@ -4,7 +4,8 @@ import styles from "./Sweatshirt.module.css";
 
 function SweatshirtPage() {
   return (
-    <div className={styles.container}>
+    //Página de "Moletons"
+    <div className={styles.container}/*Container Principal*/>
       <ProductCard products={sweatshirts} />
     </div>
   );

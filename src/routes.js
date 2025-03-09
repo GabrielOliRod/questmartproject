@@ -11,6 +11,7 @@ import ProductInfoPage from "./pages/ProductInfoPage";
 import AboutUs from "./pages/AboutUsPage";
 import ContactUsPage from "./pages/ContactUsPage";
 
+//Página de Rotas
 function AppRoutes() {
   return (
     <BrowserRouter>

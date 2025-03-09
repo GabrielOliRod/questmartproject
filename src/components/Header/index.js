@@ -5,18 +5,17 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Header() {
+  // Armazena o valor digitado pra pesquisa
   const [inputValue, setInputValue] = useState("");
 
   const navigate = useNavigate();
 
-  const navigateloginpage = (isActive) => {
-     navigate("/Login&Cadastro");
+  const navigateloginpage = () => {
+    navigate("/Login&Cadastro");
   };
 
-  const navigateshirtpage = () => {
-    navigate("/Camisetas");
-  };
-
+  // Se pressionado o Enter, redireciona para a página de resultados da pesquisa com o valor digitado
+  // Ocorre um bug na pesquisa que muitas vezes retornam alguns produto nada a ver, ainda não descobri como sanar
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       navigate(`/ResultadoPesquisa?data=${encodeURIComponent(inputValue)}`);
@@ -25,15 +24,15 @@ function Header() {
 
   return (
     <header>
-      <div className={styles.headerContainer}>
-        <div className={styles.headerLogo}>
+      <div className={styles.headerContainer} /*Container Principal*/>
+        <div className={styles.headerLogo} /*Container Logo*/>
           {/* <img src={logo} alt="Logo QuestMart" /> */}
           <a href="/">
             <h1>QuestMart</h1>
           </a>
         </div>
 
-        <div className={styles.headerSearchBar}>
+        <div className={styles.headerSearchBar} /*Container SearchBar*/>
           <div className={styles.headerSearchBarSvg}>
             <CiSearch />
           </div>
@@ -46,9 +45,9 @@ function Header() {
           ></input>
         </div>
 
-        <div className={styles.headerSection}>
+        <div className={styles.headerSection} /*Container Seção de Roupas*/>
           <a href="/Camisetas">
-            <h1 onClick={navigateshirtpage}>CAMISETAS</h1>
+            <h1>CAMISETAS</h1>
           </a>
           <a href="/Calcas">
             <h1>CALÇAS</h1>
@@ -61,14 +60,19 @@ function Header() {
           </a>
         </div>
 
-        <div className={styles.headerButtons}>
+        <div className={styles.headerButtons} /*Container Botões*/>
           <div className={styles.headerButtonLogin}>
             <Button onClick={navigateloginpage} variant="outline-dark">
               Login
             </Button>
           </div>
           <div className={styles.headerButtonSignUp}>
-            <Button onClick={navigateloginpage} variant="outline-dark">Cadastro</Button>
+            <Button
+              onClick={() => navigate("/Login&Cadastro?signup=true")}
+              variant="outline-dark"
+            >
+              Cadastro
+            </Button>
           </div>
         </div>
       </div>

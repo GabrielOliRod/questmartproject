@@ -4,8 +4,9 @@ import styles from "./ShirtPage.module.css";
 
 function ShirtPage() {
   return (
-    <div className={styles.body}>
-      <div className={styles.container}>
+    //Página de "Camisetas"
+    <div className={styles.body}/*Container Principal*/>
+      <div className={styles.container}/*Container Itens*/>
         <ProductCard products={shirts} />
       </div>
     </div>

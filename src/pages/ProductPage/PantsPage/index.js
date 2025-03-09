@@ -4,8 +4,9 @@ import styles from "./PantsPage.module.css";
 
 function PantsPage() {
   return (
-    <div className={styles.body}>
-      <div className={styles.container}>
+    //Página de "Calças"
+    <div className={styles.body/*Container Principal*/}>
+      <div className={styles.container}/*Container Itens*/>
         <ProductCard products={pants} />
       </div>
     </div>

@@ -3,13 +3,12 @@ import SectionsClotherHome from "../../components/SectionsClothesHome";
 import styles from "./HomePage.module.css";
 
 function HomePage() {
-
-
   return (
-    <div className={styles.containerHome}>
-      <body className={styles.body}>
-      <CarouselHome />
-      <SectionsClotherHome />
+    //Página Principal
+    <div className={styles.containerHome} /*Container Principal*/>
+      <body className={styles.body} /*Container Itens da página*/>
+        <CarouselHome />
+        <SectionsClotherHome />
       </body>
     </div>
   );

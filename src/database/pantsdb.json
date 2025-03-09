@@ -5,134 +5,86 @@
         "name": "Calças Lightweight Work",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work", "itens exclusivos"]
     },
     {
         "id": 2,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://images.tcdn.com.br/img/img_prod/1013584/calca_jeans_element_essentials_light_blue_4453_1_07664a1281e1416163a79479e28f7d3d.jpg",
+        "name": "Calças Element Blue light",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "jeans", "azul"]
     },
     {
         "id": 3,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://www.rettaskateshop.com.br/cdn/shop/files/CSIOANDREASI-58.jpg?v=1712168836&width=1946",
+        "name": "Calça Class Carpenter Jeans Light Blue",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 4,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "jeans", "azul"]
     },
     {
         "id": 5,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://shop2gether.fbitsstatic.net/img/p/calca-jeans-feminina-wide-leg-light-azul-208093/561150.jpg?w=1225&h=1633&v=no-value",
+        "name": "Calça Jeans Feminina Wide Leg Light",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "jeans", "azul"]
     },
     {
         "id": 6,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://melbourneskateboards.com.br/media/catalog/product/b/l/black_1_2.png?width=800&height=800&store=default&image-type=image",
+        "name": "Calça Tactel Champion Sportswear Life",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "preto"]
     },
     {
         "id": 7,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://static.rockcity.com.br/public/rockcity/imagens/produtos/calca-drop-dead-mild-logo-tactel-preto-6439531a2f40e.jpg",
+        "name": "Calça Drop Dead Mild Logo Tactel Preto",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "preto", "itens exclusivos"]
     },
     {
         "id": 8,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://static.rockcity.com.br/public/rockcity/imagens/produtos/calca-child-lightweight-vinho-646242f72d489.jpg",
+        "name": "Calça Child Lightweight",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "vermelho"]
     },
     {
-        "id": 1,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "id": 17,
+        "photo": "https://acdn.mitiendanube.com/stores/001/464/778/products/dsc_0079web1-0ef94a70ca946431d116241087184243-480-0.jpeg",
+        "name": "Calça Jeans Chaze Baloon Preta",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 9,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "preto"]
     },
     {
         "id": 10,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://cyclone.vtexassets.com/arquivos/ids/253045/calca-feminina-cyclone-veludo-slim-oriental-symbol-light-preto-azul-1.jpg?v=638508605446000000",
+        "name": "Calça Feminina Cyclone Veludo",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "preto", "itens exclusivos"]
     },
     {
         "id": 11,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://exploremode.vtexassets.com/arquivos/ids/195634/Calca-masculina-vidda-pro-lite-indigo-blue-F86891-F534_1.png?v=638616637257370000",
+        "name": "Calça Masculina Vidda Pro Lite",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 12,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "azul", "itens exclusivos"]
     },
     {
         "id": 13,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
+        "photo": "https://images.tcdn.com.br/img/img_prod/780637/streetlab_calca_cargo_jeans_tag_streetlabsupply_9065_1_3373f4c354dd9bf4fbbc4c3f338bc582.jpg",
+        "name": "Calça Cargo Jeans Streetlab",
         "price": 120,  
         "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 14,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 15,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
-    },
-    {
-        "id": 16,
-        "photo": "https://i.ibb.co/QDP0jdq/calcalightweight.jpg",
-        "name": "Calças Lightweight Work",
-        "price": 120,  
-        "xp": 120,
-        "meta": ["calças", "Lightweight", "Work", "Calças Lightweight Work"]
+        "meta": ["calças", "azul", "itens exclusivos"]
     }
 ]

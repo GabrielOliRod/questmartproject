@@ -4,8 +4,9 @@ import styles from "./ShortsPage.module.css";
 
 function ShortsPage() {
   return (
-    <div className={styles.body}>
-      <div className={styles.container}>
+    //Página de "Shorts"
+    <div className={styles.body}/*Container Principal*/>
+      <div className={styles.container}/*Container Itens*/>
         <ProductCard products={shorts} />
       </div>
     </div>
