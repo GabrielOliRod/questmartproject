@@ -13,10 +13,10 @@ The concept was designed to create a more engaging and immersive shopping experi
 The platform is fully responsive, ensuring a smooth experience on all devices. However, as new features are being developed, some functionalities are still in progress.
 
 ## Challenges
-The project was developed using React, Next.js, and TailwindCSS. The main goal was to create a high-performance, responsive, and visually appealing platform. Future updates will include a login system, personalized accounts, and enhanced gamification mechanics.
+One of the biggest challenges was optimizing performance while maintaining an immersive experience. Implementing gamification mechanics, such as XP progression and interactive elements, also required careful planning and execution.
 
 ## About the Code
-It may seem simple, but the core functionality involves a home page where, after completing the Captcha and selecting "Start" on the Virtual Keyboard, the system shuffles and selects 10 questions from the chosen category. This process is handled using useEffect, ensuring randomness while allowing users to navigate between questions seamlessly.
+The project was developed using React, Next.js, and TailwindCSS. The main goal was to create a high-performance, responsive, and visually appealing platform. Future updates will include a login system, personalized accounts, and enhanced gamification mechanics.
 
 ## Stack
 * ReactJS
