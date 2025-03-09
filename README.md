@@ -4,17 +4,16 @@
 
 
 ## About
-QuestMart is a website where you can find the best interactive quizzes!
-Here, users can test their knowledge on various topics, exploring engaging challenges.
+QuestMart is a marketplace platform that transforms the shopping experience by incorporating elements from the geek world. The idea is to bring an innovative approach to e-commerce, where users can explore, unlock rewards, and interact dynamically.
 
 ## Concept
-The idea behind QuestMart came from the need to create a dynamic and accessible quiz platform. Inspired by different interactive experiences, the project aims to provide a fun and educational environment for users.
+The concept was designed to create a more engaging and immersive shopping experience, inspired by gamification mechanics. QuestMart allows users to progress, earn XP, and access exclusive discounts while navigating a modern and intuitive interface.
 
 ##Recommendations
-Due to time constraints during development, I couldn't make the website fully responsive for mobile devices. As a result, it works best on computers.
+The platform is fully responsive, ensuring a smooth experience on all devices. However, as new features are being developed, some functionalities are still in progress.
 
 ##Challenges
-One of my biggest challenges was bug fixing, as I had to deal with many new concepts. From using useEffect for major tasks to implementing Drag and Hold (my favorite mechanic), every step was a learning experience.
+The project was developed using React, Next.js, and TailwindCSS. The main goal was to create a high-performance, responsive, and visually appealing platform. Future updates will include a login system, personalized accounts, and enhanced gamification mechanics.
 
 ##About the Code
 It may seem simple, but the core functionality involves a home page where, after completing the Captcha and selecting "Start" on the Virtual Keyboard, the system shuffles and selects 10 questions from the chosen category. This process is handled using useEffect, ensuring randomness while allowing users to navigate between questions seamlessly.
@@ -24,3 +23,4 @@ It may seem simple, but the core functionality involves a home page where, after
 * JavaScript
 * CSS
 * HTML
+* NextJS
